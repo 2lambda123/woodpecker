@@ -8,7 +8,7 @@ when:
       - release/*
 
 variables:
-  - &golang_image 'docker.io/golang:1.21.3'
+  - &golang_image 'docker.io/golang:1.21.4'
   - &when
     - path: &when_path # related config files
         - '.woodpecker/test.yml'
