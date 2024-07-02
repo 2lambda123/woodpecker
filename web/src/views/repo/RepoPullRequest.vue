@@ -22,16 +22,15 @@ if (!repo || !repoPermissions) {
 }
 
 const allPipelines = inject<Ref<Pipeline[]>>('pipelines');
-const pipelines = computed(
-  () =>
-    allPipelines?.value.filter(
-      (b) =>
-        b.event === 'pull_request' &&
-        b.ref
-          .replaceAll('refs/pull/', '')
-          .replaceAll('refs/merge-requests/', '')
-          .replaceAll('/merge', '')
-          .replaceAll('/head', '') === pullRequest.value,
-    ),
+const pipelines = computed(() =>
+  allPipelines?.value.filter(
+    (b) =>
+      b.event === 'pull_request' &&
+      b.ref
+        .replaceAll('refs/pull/', '')
+        .replaceAll('refs/merge-requests/', '')
+        .replaceAll('/merge', '')
+        .replaceAll('/head', '') === pullRequest.value,
+  ),
 );
 </script>
