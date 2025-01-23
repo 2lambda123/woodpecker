@@ -50,7 +50,7 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.uber.org/multierr v1.11.0
 	golang.org/x/crypto v0.31.0
-	golang.org/x/net v0.25.0
+	golang.org/x/net v0.33.0
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/sync v0.10.0
 	golang.org/x/term v0.27.0
