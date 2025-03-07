@@ -30,7 +30,7 @@
     "pinia": "^2.1.4",
     "prismjs": "^1.29.0",
     "vue": "^3.3.4",
-    "vue-i18n": "^9.14.2",
+    "vue-i18n": "^9.14.3",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
