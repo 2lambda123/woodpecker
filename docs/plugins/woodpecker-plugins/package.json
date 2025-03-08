@@ -16,7 +16,7 @@
     "@tsconfig/docusaurus": "^2.0.0",
     "@types/marked": "^5.0.0",
     "@types/node": "^20.0.0",
-    "axios": "^1.6.0",
+    "axios": "^1.8.2",
     "concurrently": "^8.0.0",
     "marked": "^9.1.2",
     "tslib": "^2.6.1",
